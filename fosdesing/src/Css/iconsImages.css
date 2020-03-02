@@ -1,0 +1,11 @@
+.terminal{
+    background-color: black;
+    padding: 2vh;
+    height: 6vh;
+    width: 6vh;
+    margin-left: 2vh;
+    border-radius: 1vh;
+    color:green;
+    font-size: 5vh;
+    text-decoration: none;
+}

@@ -1,0 +1,61 @@
+body{
+    background-image: url('../img/wallpaper-natureza-para-computador-D_NQ_NP_806729-MLB26963335198_032018-F.jpg');
+    background-repeat: no-repeat;
+    background-size:100%
+}
+
+/*Class for Bar*/
+.bar-static{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(226,226,226,1);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(46%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+    background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 46%, rgba(254,254,254,1) 100%);
+    -webkit-box-shadow: -1px 17px 24px -5px rgba(0,0,0,0.37);
+    -moz-box-shadow: -1px 17px 24px -5px rgba(0,0,0,0.37);
+    box-shadow: -1px 17px 24px -5px rgba(0,0,0,0.37);
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.9;
+    height: 6vh;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+.bar-static ul li{
+    color:#959595;
+    float: left;
+    padding-left: 5vh;
+    margin-top: -1vh;
+    list-style: none;
+}
+.statusTime{
+    float: left;
+    margin-top: 1vh;
+    margin-left: auto;
+    padding-right: 5vh;
+    color:#959595;
+}
+
+
+/*Box styles*/
+.box{
+    -webkit-box-shadow: 24px 17px 45px -5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 24px 17px 45px -5px rgba(0,0,0,0.25);
+    box-shadow: 24px 17px 45px -5px rgba(0,0,0,0.25);
+    height: 26vh;
+    width: 40vh;
+    background-color: #c4c4c4;
+    color:black;
+    position: relative;
+    margin-top: 20vh;
+    margin-left: 10vh;
+    border-radius: 1vh;
+}
+.box h3{
+    padding-top:2vh;
+    padding-left: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
