@@ -27,7 +27,20 @@
     height: 4vh;
     padding-top: 1vh;
     text-align: center;
+}
+.inputChanges{
+      padding: 2vh;
+      width: 96%;
+      color: green;
+      background-color: black;
+      border: none;
+      text-align: start;
 } 
+textarea:focus, input:focus, select:focus {
+      box-shadow: 0 0 0 0;
+      border: 0 none;
+      outline: 0;
+  } 
 /*Animação*/
 .anim-typewriter {
     -webkit-touch-callout: none;

@@ -8,6 +8,7 @@ function Terminal(){
         <div className="terminal-app">
             <div className="terminal-app-title">Terminal Formiga App <Link Link to='/Home'><div class="closerBt terminal-closer"></div></Link></div>
             <div className="anim-typewriter">Welcome to Formiga Terminal 0.0.1 <br/>Happy coding</div>
+            <input type="text" className="inputChanges"></input>
         </div>
     )
 }
