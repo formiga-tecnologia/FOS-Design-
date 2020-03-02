@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 
 function Explorebar(){
@@ -12,7 +13,7 @@ function Explorebar(){
         <div className='bar-static'>
             <ul>
                 <li>Logo ID</li>
-                <li>My explore</li>
+                <li><Link to='/favApp'>My App's</Link></li>
                 <li>Apps</li>
                 <li>Suport</li>
             </ul>

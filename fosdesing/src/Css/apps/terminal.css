@@ -1,12 +1,15 @@
 
 /*The Stuyles apps from terminal*/
+.terminal-closer{
+      margin-top:-0.6vh;
+}
 .terminal-app{
     background-color: black;
     height: 80vh;
     width: 120vh;
     margin: auto;
     margin-left: 40vh;
-    margin-top: -20vh;
+    margin-top: 10vh;
     position:absolute;
     z-index: 30;
 }

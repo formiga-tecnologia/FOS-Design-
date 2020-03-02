@@ -1,26 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../Css/iconsImages.css'
-import Terminal from './apps/Terminal'
+import { Link } from 'react-router-dom'
 
 function Favappbox(){
-    const [terminal,setTerminal ] =useState([])  
-    let [callApp] = useState(false)
-    const OnAddTerminal = event =>{
-        console.log("vai")
-        if(callApp === false){
-            setTerminal(terminal.concat(<Terminal key={terminal.length}/>))
-            callApp = true
-        }
-        else{
-            setTerminal(terminal.shift(<Terminal key={terminal.length}/>))
-            callApp=false
-        }
-    }
     return(
         <div className='box'>
-            <h3>App´s Favorite</h3>
-            <a href="/#" className='terminal' onClick={OnAddTerminal}> /> </a>
-            {terminal}
+            <h3>My App´s</h3>
+            <Link to="/Terminal" className='terminal'>/>²</Link>
+            <Link to='/Home'><div className='closerBt closerBoxBt'></div></Link>
         </div>
     )
 }
