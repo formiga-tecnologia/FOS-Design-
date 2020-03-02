@@ -1,0 +1,9 @@
+{
+  "name": "FOS",
+  "version": "0.0.1",
+  "description": "Design from FOS Web system",
+  "main": "index.js",
+  "repository": "https://github.com/formiga-tecnologia/FOS-Design-",
+  "author": "Felipe Catão ",
+  "license": "MIT"
+}
