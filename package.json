@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/formiga-tecnologia/FOS-Design-",
   "author": "Felipe Catão ",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "netlify-cli": "^2.40.0"
+  }
 }
