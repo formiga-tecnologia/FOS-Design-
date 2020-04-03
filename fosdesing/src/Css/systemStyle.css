@@ -9,3 +9,15 @@
     float: right;
     margin-right: 1vh;
 }
+
+
+
+/*Responsive system */
+@media screen and (max-width: 600px){
+    .bar-static{
+        height: 10vh;
+    }
+    .bar-static ul li{
+        margin-top: -1vh;        
+    }
+}
