@@ -1,0 +1,25 @@
+.appWin{
+    height: 80vh;
+    width: 120vh;
+    margin: auto;
+    margin-left: 40vh;
+    margin-top: 10vh;
+    background-color: white;
+    position:absolute;
+    z-index: 30;
+}
+.appTitle{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: rgba(226,226,226,1);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(46%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+    background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 46%, rgba(254,254,254,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 4vh;
+    padding-top: 1vh;
+    text-align: center;
+}

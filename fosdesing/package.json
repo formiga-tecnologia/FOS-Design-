@@ -11,6 +11,7 @@
     "react-scripts": "3.4.0"
   },
   "scripts": {
+    "proxy":"https://api.github.com/users/octocat/hovercard?subject_type=repository&subject_id=1300192",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
